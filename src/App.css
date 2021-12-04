@@ -1,0 +1,53 @@
+ *{
+   margin: 0;
+ }
+body{
+  background-color: #b4b4a8;
+}
+ .app_header{
+
+   display:flex;
+   align-items: center;
+   margin-bottom: 20px;
+   justify-content: space-between;
+ }
+ .app_header > h1 {
+   color: red;
+   font-size: 1.2rem;
+   background-color: rgb(137, 223, 245);
+ }
+ .app_dropdown{
+   background-color: white;
+ }
+ .App{
+   display:flex;
+   justify-content: space-evenly;
+   padding: 5px;
+ }
+ 
+ .app_left {
+   margin: 13px;
+   flex: 80%;
+ }
+ .app_stats{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+@media(max-width:990px){
+  .App{
+    flex-direction: column;
+  }
+   
+}
+.app_dropdown1{
+  background-color: white;
+  margin-top: 20px;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+ 
+   
+}

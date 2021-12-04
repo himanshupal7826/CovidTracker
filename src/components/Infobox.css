@@ -1,0 +1,44 @@
+.infoBox{
+    flex:1;
+    cursor:pointer;
+}
+.infoBox:not(:last-child){
+    margin-right: 10px;
+}
+.infoBox--selected {
+    border-top:10px solid black;
+}
+.infoBox_cases {
+color:#cc1034;
+font-weight: 400;
+font-size: 1.75rem;
+margin-bottom: 0.5rem;
+}
+
+.infoBox_total{
+    color:burlywood;
+    font-weight: 350;
+    font-size: 1rem;
+    margin-top: 15px;  
+}
+
+@media(max-width:600px){
+     
+    .infoBox:not(:last-child){
+        margin-right: 10px;
+    }
+    
+    .infoBox_cases {
+    color:#cc1034;
+    font-weight: 300;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    }
+    
+    .infoBox_total{
+        color:burlywood;
+        font-weight: 250;
+        font-size: .75rem;
+        margin-top: 15px;  
+    }
+}

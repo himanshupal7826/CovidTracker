@@ -1,0 +1,35 @@
+.table{
+    margin-top:20px;
+    overflow:scroll;
+    height: 400px;
+    color: azure;
+    background-color: rgb(73, 70, 70);
+}
+.table tr{
+    display: flex;
+    justify-content: space-between;
+}
+.table td{
+    padding:0.5rem;
+}
+.table tr:nth-of-type(odd){
+    background-color: #9e8ef1;
+}
+
+.table1{
+    margin-top:20px;
+    overflow:scroll;
+    height: 400px;
+    color:white;
+    background-color: rgb(73, 70, 70);
+}
+.table1 tr{
+    display: flex;
+    justify-content: space-between;
+}
+.table1 td{
+    padding:0.5rem;
+}
+.table1 tr:nth-of-type(odd){
+    background-color:rgb(44, 44, 92);
+}

@@ -1,0 +1,8 @@
+.Prec{
+     
+    background:radial-gradient(circle,rgba(92,39,251,1)0%,rgb(71, 206, 247)100%);
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    padding:80px 60px;
+}
